@@ -5,9 +5,11 @@
         public int Id { get; set;  }
         public string Nome { get; set; } = string.Empty;
 
+        public int Preco { get; set; }
+
         public string Descricao { get; set; } = string.Empty;
 
-        public int QuantidadeEtoque { get; set; }
+        public int QuantidadeEstoque { get; set; }
 
         public string CodigoDeBarras { get; set; } = string.Empty;
 
