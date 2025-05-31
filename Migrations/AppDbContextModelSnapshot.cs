@@ -45,7 +45,10 @@ namespace ApiWeb9.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("QuantidadeEtoque")
+                    b.Property<int>("Preco")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuantidadeEstoque")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
