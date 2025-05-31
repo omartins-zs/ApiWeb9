@@ -1,0 +1,28 @@
+
+Criar Migration
+
+Se você estiver usando .NET CLI:
+
+dotnet ef migrations add RenameColumn
+
+Se você estiver usando Package Manager Console:
+
+Add-Migration RenameColumn
+
+
+Atualizar o Banco de Dados
+
+Se você estiver usando .NET CLI:
+
+dotnet ef database update
+
+Se você estiver usando Package Manager Console:
+
+Update-Database
+
+
+INSERT INTO Produtos (Nome, Descricao, QuantidadeEstoque, CodigoDeBarras, Marca)
+VALUES
+('Mouse Gamer', 'Mouse óptico com 6 botöes programäveis', 50, '9876543210987', 'Logitech'),
+('Teclado Mecånico', 'Teclado mecånico RGB com switches blue', 30, '1122334455667', 'Razer' ),
+(' Monitor 27 Polegadas', ' Monitor Full HD com taxa de atualizacäo de 144Hz',20, '2233445566778',' Samsung');
